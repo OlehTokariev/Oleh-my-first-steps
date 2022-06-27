@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>In time</title>
+</head>
+    <body>
+        <div class="holder">
+            <div class="check-box">
+                <input type="checkbox" class="check" id="check1">
+                <label class="check-label" for="check1">I agree</label>
+            </div>
+            <div class="check-box">
+                <input type="radio" name="gender" class="radio" id="radio">
+                <label class="radio-label" for="radio">Male</label>
+            </div>
+            <div class="check-box">
+                <input type="radio" name="gender" class="radio" id="radio1">
+                <label class="radio-label" for="radio1">Female</label>  
+            </div>
+            <div class="select-box">
+                <label for="select" class="select-label">Choose your city</label>
+                <select id="select" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+                    <option >Dnipro</option>
+                    <option >Kyiv</option>
+                    <option >Praha</option>
+                    <option >Greensboro</option>
+                    <option >Clemmons</option>
+                </select>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="js/jcf.js"></script>
+<script src="js/jcf.select.js"></script>
+<script src="js/main.js"></script>
+    </body>
+</html>
